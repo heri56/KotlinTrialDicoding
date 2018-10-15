@@ -17,7 +17,11 @@ val converStringAngka = d.toInt()
 val x = a < b && b == c
 val y = converStringAngka == 1
 
+val singleLineString = "Hello World!"
+val iterateString = singleLineString[11]
+
 fun main(args: Array<String>){
     println(x)
     println(y)
+    println(iterateString)
 }
