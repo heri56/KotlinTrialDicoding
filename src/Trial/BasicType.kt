@@ -20,8 +20,17 @@ val y = converStringAngka == 1
 val singleLineString = "Hello World!"
 val iterateString = singleLineString[11]
 
+val queueNumber = 17
+val yourQueue = "Your queue number is $queueNumber"
+
+//val sampleArray = arrayOf(1, 3, 5,"Jakarta", true)
+val jakarta = "Jakarta"
+val sampleArray = charArrayOf('A')
+val callArray = sampleArray[0]
 fun main(args: Array<String>){
     println(x)
     println(y)
     println(iterateString)
+    println(yourQueue)
+    println(callArray)
 }
