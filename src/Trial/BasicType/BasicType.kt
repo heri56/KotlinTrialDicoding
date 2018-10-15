@@ -1,4 +1,4 @@
-package Trial
+package Trial.BasicType
 
 val intNumbers = 3
 val toconvert = intNumbers.toDouble()
